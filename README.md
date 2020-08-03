@@ -3,7 +3,19 @@
 About
 -----
 > Implementation of collision warning system based on multi-object detection and distance estimation using Tensorflow
+ 
+Convert Weight file
+-------------------
+> Download the official weights Or you can put your own weight file in weights folder
+For YOLOv3-Tiny:
 
+curl https://pjreddie.com/media/files/yolov3-tiny.weights > ./weights/yolov3-tiny.weights
+
+Usage
+python3 convert_weights.py [-h] [--tiny]
+
+-h: Show help message and exit.
+--tiny: Convert tiny_weights from "./weights/yolov3-tiny.weights". Default is to convert weights from "./weights/yolov3.weights".
 
 Installation
 ------------
