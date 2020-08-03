@@ -1,4 +1,4 @@
-# Tensorflow YOLOv3-tiny and Distance estimation
+# Collision Warning using YOLOv3-tiny and Distance estimation on tensorflow 
 
 About
 -----
